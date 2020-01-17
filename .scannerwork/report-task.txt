@@ -1,0 +1,6 @@
+projectKey=php-contact-form2
+serverUrl=http://localhost:9000
+serverVersion=8.1.0.31237
+dashboardUrl=http://localhost:9000/dashboard?id=php-contact-form2
+ceTaskId=AW-zTQ5d8KkGCHWdYTKe
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AW-zTQ5d8KkGCHWdYTKe

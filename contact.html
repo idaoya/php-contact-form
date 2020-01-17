@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Contact Form</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel='stylesheet' type='text/css' /> 
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id="contact" class="container">
+                <div class="title">
+                    <h2>Contact Form</h2>
+                </div>              
+                    <form name="form1" method="post" action="contact.php">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" name="name" id="name" placeholder="Name" required />
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="email" class="form-control input-lg" name="email" id="email" placeholder="Email" required />          
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" name="subject" id="subject" placeholder="Subject" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" id="message" class="form-control input-lg" rows="4" cols="25" placeholder="Message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-4 btn-block" name="btnBooking" id="btnBbooking">Send</button>
+                            </div>
+                        </div>
+                    </form>              
+            </div>
+        </div> 
+    </body>
+</html>
